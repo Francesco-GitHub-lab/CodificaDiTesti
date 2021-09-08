@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="MorfologiaPP16_17.xsl" ?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Morphologie</title>
+                <author><name>Ferdinand</name> <surname>de Saussure</surname></author>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>
+                    Data di stesura incerta, si suppone sia stato steso nel periodo <date notBefore="1893" notAfter="1895">1893-94, ma alcuni suppongono 1894-95.</date>
+                </edition>
+                <respStmt>
+                    <resp>Codificato da </resp>
+                    <name xml:id="FL">Francesco Longobardi</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Ferdinand de Saussure</publisher>
+                <pubPlace>Biblioteca di Ginevra</pubPlace>
+                <availability status="free">
+                    <p>Reperibile gratuitamente nell'archivio digitale della Biblioteca di Ginevra</p>
+                </availability>
+                <date>1893-94</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <citedRange unit="page" from="16" to="17">16-17</citedRange>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vta9cfd3fc17efc113d/dao/0/layout:linear#id:258454482">Biblioteca di Ginevra</repository>
+                        <idno>Ms. fr. 3951/7</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <author>Ferdinand de Saussure</author>
+                            <textLang mainLang="fr">Francese di fine Ottocento</textLang>
+                            <title>La morphologie historique</title>
+                            <note>Prime due pagine del capitolo 5, inerente la morfologia storica e il cambiamento morfologico, dei suoi appunti per le prime tre lezioni del corso da lui tenuto presso l'Università di Ginevra.</note>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta a righe di quaderno.</material>
+                                </support>
+                                <condition>
+                                    <p>I fogli degli appunti sono conservati in buono stato. La calligrafia dell'autore è ancora ben leggibile. Le pagine degli appunti presentano comunque alcuni strappi nelle parti laterali.</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote>Calligrafia dell'autore ben leggibile. Appunti scritti a mano, corretti a più riprese dallo stesso de Saussure.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="ms_fr_03951_07_p016">
+            <graphic url='ms_fr_03951_07_p016.jpg' width='4032px' height='6048px' />
+            <zone ulx="429" uly="385" lrx="1135" lry="800" xml:id="lb_p016_01" /><!--Terza lezione, ancogolo in alto a sinistra-->
+            <zone ulx="1069" uly="424" lrx="3670" lry="831" xml:id="lb_p016_02" /><!--Titolo del capitolo 5-->
+            <zone ulx="507" uly="809" lrx="921" lry="1249" xml:id="lb_p016_03" /><!--Numero della pagina-->
+            <zone ulx="926" uly="811" lrx="3720" lry="1563" xml:id="lb_p016_04" /><!--Prima parte di testo cancellata-->
+            <zone ulx="1147" uly="1502" lrx="3740" lry="1735" xml:id="lb_p016_05"/><!--Linea 1-->
+            <zone ulx="1044" uly="1688" lrx="3672" lry="1888" xml:id="lb_p016_06"/><!--Linea 2-->
+            <zone ulx="486" uly="1854" lrx="3442" lry="2111" xml:id="lb_p016_07"/><!--Linea 3-->
+            <zone ulx="781" uly="2011" lrx="3749" lry="2286" xml:id="lb_p016_08"/><!--Linea 4-->
+            <zone ulx="1115" uly="2201" lrx="3694" lry="2448" xml:id="lb_p016_09"/><!--Linea 5-->
+            <zone ulx="1161" uly="2373" lrx="3742" lry="2774" xml:id="lb_p016_10"/><!--2 Linee non leggibili-->
+            <zone ulx="1148" uly="2671" lrx="3740" lry="2939" xml:id="lb_p016_11"/><!--Linea 6-->
+            <zone ulx="1252" uly="2875" lrx="3313" lry="3249" xml:id="lb_p016_12"/><!--Linea 7-->
+            <zone ulx="886" uly="3209" lrx="3746" lry="3495" xml:id="lb_p016_13"/><!--Linea 8-->
+            <zone ulx="416" uly="3416" lrx="3710" lry="3703" xml:id="lb_p016_14"/><!--Linea 9-->
+            <zone ulx="1145" uly="3602" lrx="3738" lry="3826" xml:id="lb_p016_15"/><!--Linea 10-->
+            <zone ulx="1200" uly="3752" lrx="3600" lry="3969" xml:id="lb_p016_16"/><!--Linea 11-->
+            <zone ulx="1122" uly="3894" lrx="3663" lry="4120" xml:id="lb_p016_17"/><!--Linea 12-->
+            <zone ulx="498" uly="4046" lrx="3596" lry="4318" xml:id="lb_p016_18"/><!--Linea 13-->
+            <zone ulx="1261" uly="4223" lrx="3728" lry="4447" xml:id="lb_p016_19"/><!--Linea 14-->
+            <zone points = ' 492,4796 1159,4793 1273,4640 3567,4553 3582,4392 2629,4394 1230,4490 472,4536 ' xml:id="lb_p016_20"/><!--Linea 15-->
+            <zone points = ' 1289,4755 2211,4776 2652,4703 3608,4653 3610,4527 2415,4579 1279,4647 ' xml:id="lb_p016_21"/><!--Linea 16-->
+            <zone points = ' 1251,5009 1920,4921 2175,4953 3699,4929 3712,4655 2823,4703 1257,4818 ' xml:id="lb_p016_22"/><!--Linea 17-->
+            <zone points = ' 1331,5159 1643,5079 2219,5053 2205,4962 2159,4961 2067,4913 1359,4971 ' xml:id="lb_p016_23"/><!--Linea 18-->
+            <zone ulx="1599" uly="5026" lrx="3717" lry="5239" xml:id="lb_p016_24"/><!--Linea 19-->
+            <zone ulx="1312" uly="5180" lrx="3699" lry="5391" xml:id="lb_p016_25"/><!--Linea 20-->
+            <zone ulx="1303" uly="5316" lrx="3738" lry="5527" xml:id="lb_p016_26"/><!--Linea 21-->
+            <zone ulx="1328" uly="5498" lrx="3709" lry="5629" xml:id="lb_p016_27"/><!--Linea 22-->
+        </surface>
+
+        <surface n="2" xml:id="ms_fr_03951_07_p017">
+            <graphic url='ms_fr_03951_07_p017.jpg' width='4032px' height='6048px' />
+            <zone ulx="359" uly="638" lrx="624" lry="894" xml:id="lb_p017_01" /><!--Numero della pagina-->
+            <zone points = ' 835,837 1903,831 2365,760 2822,802 3203,768 3195,588 2186,587 829,631 ' xml:id="lb_p017_02" /><!--Linea 1-->
+            <zone ulx="911" uly="772" lrx="3273" lry="969" xml:id="lb_p017_03" /><!--Linea 2-->
+            <zone ulx="1452" uly="918" lrx="3423" lry="1085" xml:id="lb_p017_04" /><!--Linea 3-->
+            <zone ulx="1273" uly="1022" lrx="3567" lry="1197" xml:id="lb_p017_05" /><!--Linea 4-->
+            <zone ulx="1128" uly="1160" lrx="3355" lry="1346" xml:id="lb_p017_06" /><!--Linea 5-->
+            <zone ulx="917" uly="1304" lrx="3401" lry="1515" xml:id="lb_p017_07" /><!--Linea 6-->
+            <zone points = ' 995,1668 2591,1640 2661,1752 3553,1789 3549,1453 3074,1527 2853,1485 992,1552 ' xml:id="lb_p017_08" /><!--Linea 7-->
+            <zone ulx="1005" uly="1678" lrx="1791" lry="1814" xml:id="lb_p017_09" /><!--Linea 8-->
+            <zone points = ' 1201,2008 2406,1980 3247,1977 3528,2032 3605,1791 2009,1752 1665,1812 1210,1827 ' xml:id="lb_p017_10" /><!--Linea 9-->
+            <zone points = ' 333,2147 650,2204 1050,2161 1693,2188 1948,2166 3486,2154 3530,2047 3248,1971 2899,1956 2563,1999 1868,1988 1056,1996 977,1873 388,1965 ' xml:id="lb_p017_11" /><!--Linea 10-->
+            <zone points = ' 240,2522 1089,2361 3402,2311 3392,2155 2599,2143 1671,2174 985,2169 284,2210 ' xml:id="lb_p017_12" /><!--Linea 11-->
+            <zone ulx="994" uly="2297" lrx="3412" lry="2676" xml:id="lb_p017_13" /><!--2 Linee non leggibili-->
+            <zone points = ' 489,2860 2160,2781 3478,2764 3492,2624 1708,2639 505,2681 ' xml:id="lb_p017_14" /><!--Linea 12-->
+            <zone points = ' 1031,3013 2341,2940 2906,2895 3591,2926 3604,2739 2223,2785 1025,2876 ' xml:id="lb_p017_15" /><!--Linea 13-->
+            <zone points = ' 1153,3190 2192,3089 3460,3059 3465,2911 2536,2908 1187,3021 ' xml:id="lb_p017_16" /><!--Linea 14-->
+            <zone points = ' 1100,3371 2221,3310 2334,3229 3366,3179 3370,3028 2772,3123 2126,3108 1108,3198 ' xml:id="lb_p017_17" /><!--Linea 15-->
+            <zone points = ' 1151,3462 2766,3399 3521,3347 3508,3175 2632,3245 2579,3211 2314,3225 2252,3281 1161,3345 ' xml:id="lb_p017_18" /><!--Linea 16-->
+            <zone points = ' 511,3725 1932,3618 2876,3570 3581,3568 3573,3350 2276,3448 1171,3463 517,3511 ' xml:id="lb_p017_19" /><!--Linea 17-->
+            <zone points = ' 653,3902 2059,3786 3457,3725 3445,3545 2725,3555 1803,3627 685,3693 ' xml:id="lb_p017_20" /><!--Linea 18-->
+            <zone ulx="1210" uly="3786" lrx="2204" lry="4003" xml:id="lb_p017_21" /><!--Linea 19-->
+            <zone ulx="1370" uly="3959" lrx="3416" lry="4213" xml:id="lb_p017_22" /><!--Linea 20-->
+            <zone points = ' 823,4427 2659,4341 3536,4289 3560,4096 843,4283 ' xml:id="lb_p017_23" /><!--Linea 21-->
+            <zone points = ' 927,4565 3342,4478 3338,4310 2541,4356 950,4456 ' xml:id="lb_p017_24" /><!--Linea 22-->
+            <zone points = ' 970,4781 3363,4650 3365,4480 989,4606 ' xml:id="lb_p017_25" /><!--Linea 23-->
+            <zone points = ' 997,4969 1399,4929 3270,4854 3247,4725 1011,4832 ' xml:id="lb_p017_26" /><!--Linea 24-->
+            <zone points = ' 463,5147 3395,5033 3397,4824 1893,4923 1635,4904 485,4959 ' xml:id="lb_p017_27" /><!--Linea 25-->
+        </surface>
+    </facsimile>
+
+    <text>
+        <body xml:lang="fr">
+            <!-- PAGINA 16 -->
+            <div type="page" n="p016" facs="ms_fr_03951_07_p016">
+                
+                <!-- TITOLO CAPITOLO 5 -->                
+                <p facs="#lb_p016_01">
+                    <s type="transcription">
+                        <num value="3">3</num> conférence <num value="1">1</num>.
+                    </s>
+
+                    <s type="translation">Terza conferenza</s>
+                </p>
+
+                <p facs="#lb_p016_03">
+                    <s type="transcription" >
+                        <emph rend="red"><num value="16">16</num></emph>
+                    </s>
+                </p>
+
+                <p facs="#lb_p016_02">
+                    <s xml:id="TitleCap" type="transcription">§5. La morphologie historique. Le changement morphologique.</s>
+                    <s type="translation" xml:id="tradTitleCap">§5. La morfologia storica. Il cambiamento morfologico.</s>
+                </p>
+                
+                <gap reason="illegible" quantity="4" unit="lines" facs="#lb_p016_04"/>                
+                
+                <!-- PARAGRAFO 1 -->
+                <p xml:id="Para1">
+                    <s n="linea1" type="transcription" facs="#lb_p016_05">
+                        Il ressort <emph rend="underlined">indirectement</emph> du §4 qu'il y a dans
+                    </s>
+                
+                    <s n="linea2" type="transcription" facs="#lb_p016_06">                        
+                        la vie du langage un fait considérable,
+                    </s>
+                
+                    <s n="linea3" type="transcription" facs="#lb_p016_07">
+                        <add place="margin">
+                            <choice>
+                                <abbr>d</abbr>
+                                <expan>d'une</expan>
+                            </choice>
+                            <choice>
+                                <abbr>import</abbr>
+                                <expan>importance</expan>
+                            </choice>
+                            <choice>
+                                <abbr>capit.,</abbr>
+                                <expan>capitale,</expan>
+                            </choice>
+                        </add>
+                        qui est le <emph rend="underlined">changement morphologique</emph>.
+                    </s>
+
+                    <s type="translation" xml:id="tradPara1">
+                        Deriva indirettamente dal § 4 che vi è nella vita del linguaggio un fatto considerevole, d’un’importanza capitale, che è il cambiamento morfologico.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 2-->
+                <p xml:id="Para2">
+                    <s type="transcription" facs="#lb_p016_08">
+                        Et que le procédé que nous avons appelé <emph rend="underlined">morphologie</emph>
+                    </s>
+                
+                    <s type="transcription" facs="#lb_p016_09">
+                        <choice>
+                            <abbr><emph rend="underlined">rétrosp.</emph></abbr>
+                            <expan><emph rend="underlined">rétrospective</emph></expan>
+                        </choice>
+                        ou
+                        <choice>
+                            <abbr><emph rend="underlined">anachroniq.</emph></abbr>
+                            <expan><emph rend="underlined">anachronique</emph></expan>
+                        </choice>
+                        ou
+                        <choice>
+                            <abbr><emph rend="underlined">étymologiq.</emph></abbr>
+                            <expan><emph rend="underlined">étymologique</emph></expan>
+                        </choice>
+                    </s>
+                
+                    <gap reason="illegible" quantity="2" unit="lines" facs="#lb_p016_10"/>
+                
+                    <s type="transcription" facs="#lb_p016_11">
+                        <gap reason="illegible" quantity="1" unit="word" />
+                        consiste 
+                        <add place="above">
+                            <choice>
+                                <abbr>tt simpl</abbr>
+                                <expan>tout simplement</expan>
+                            </choice>
+                        </add>
+                        à ériger en système
+                    </s>
+                
+                    <s type="transcription" facs="#lb_p016_12">
+                        l'oubli
+                        <add place="bottom">
+                            de ce
+                            <choice>
+                                <abbr>phén.</abbr>
+                                <expan>phénomène</expan>
+                            </choice>
+                        </add>
+                        du changement
+                        <choice>
+                            <abbr>morphol.</abbr>
+                            <expan>morphologique</expan>
+                        </choice>
+                        .
+                    </s>
+
+                    <s type="translation" xml:id="tradPara2">
+                        E che il procedimento che noi abbiamo chiamato morfologia retrospettiva o anacronica o etimologica consiste molto semplicemente a erigere a sistema la dimenticanza di tale fenomeno del cambiamento morfologico. 
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 3 -->
+                <p xml:id="Para3">
+                    
+                    <s type="transcription" facs="#lb_p016_13">
+                        <gap reason="illegible" quantity="4" unit="word" />
+                        <del rend="overtyped">Le</del>
+                        changement
+                        <choice>
+                            <abbr>morphologiq</abbr>
+                            <expan>morphologique</expan>
+                        </choice>
+                    </s>
+                                        
+                    <s type="transcription" facs="#lb_p016_14">
+                        <add place="margin">nécessite une étude spéciale qui</add>
+                        prend le nom de
+                        <emph rend="underlined">
+                            <choice>
+                                <abbr>Morphol</abbr>
+                                <expan>Morphologie</expan>
+                            </choice>
+                            historique
+                        </emph>
+                        .
+                    </s>
+                    
+                    <s type="translation" xml:id="tradPara3">
+                        Il cambiamento morfologico necessita uno studio speciale, che prende il nome di morfologia storica.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 4 -->
+                <p xml:id="Para4">
+                    <s type="transcription" facs="#lb_p016_15">
+                        Elle sépare les époques et les compare, tandis
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_16">
+                        que la 
+                        <choice>
+                            <abbr>morp.</abbr>
+                            <expan>morphologie</expan>
+                        </choice> 
+                        rétrospective les confond.
+                    </s>
+
+                    <s type="translation" xml:id="tradPara4">
+                        Essa separa le epoche e le mette a confronto, laddove la morfologia retrospettiva le confonde.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 5 -->
+                <p xml:id="Para5">
+                    
+                    <s type="transcription" facs="#lb_p016_17">
+                        <num value="2">2</num>
+                        Elle 
+                        <add>
+                            <choice>
+                                <abbr>n</abbr>
+                                <expan>nous</expan>
+                            </choice>
+                            présente
+                        </add>
+                        la véritable perspective entre
+                    </s>
+                
+                    <s type="transcription" facs="#lb_p016_18">
+                        les
+                        <add place="margin">classifications <num value="1">1</num></add>
+                        et les interprétations successives
+                        <add place="above">auxquelles</add>
+                        <gap reason="illegible" quantity="1" unit="word" />
+                        la
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_19">
+                        langue a pu
+                        <gap reason="illegible" quantity="1" unit="word" />
+                        <gap reason="illegible" quantity="2" unit="word" />
+                        <add place="above">
+                            se li<del rend="overtyped">vrer</del> sur les
+                        </add>
+                        mêmes formes,
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_20">
+                        tandis que la 
+                        <choice>
+                            <abbr>morp</abbr>
+                            <expan>morphologie</expan>
+                        </choice> 
+                        <choice>
+                            <abbr>rétrosp</abbr>
+                            <expan>rétrospective</expan>
+                        </choice> 
+                        cherche,
+                        <add place="margin">
+                            si
+                            <choice>
+                                <abbr>vs</abbr>
+                                <expan>vous</expan>
+                            </choice> 
+                            me 
+                            <choice>
+                                <abbr>permet</abbr>
+                                <expan>permettez</expan>
+                            </choice>
+                            cette
+                            <choice>
+                                <abbr>img</abbr>
+                                <expan>image</expan>
+                            </choice>
+                            , 
+                        </add>
+                        à
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_21">
+                        obtenir la projection sur un même
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_22">
+                        plan 
+                        <gap reason="illegible" quantity="3" unit="word" />
+                        <add place="bottom">
+                            de classifications 
+                        </add>
+                        très 
+                        <choice>
+                            <abbr>différ.</abbr>
+                            <expan>différentes</expan>
+                        </choice>
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_23">
+                        par leur date.
+                    </s>
+
+                    <s type="translation" xml:id="tradPara5">
+                        Essa rappresenta la vera prospettiva tra le classificazioni e le interpretazioni successive delle stesse forme alle quali la lingua ha potuto addivenire, mentre la morfologia retrospettiva cerca, se mi permettete quest’immagine, d’ottenere la proiezione su uno stesso piano di classificazioni molto diverse per quanto riguarda la loro data.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 6 -->
+                <p xml:id="Para6">
+
+                    <s type="transcription" facs="#lb_p016_24">
+                        Elle dira que 
+                        <choice>
+                            <abbr>ds</abbr>
+                            <expan>dans</expan>
+                        </choice> 
+                        <emph rend="underlined">kalb, kalbir,</emph> 
+                        par suite
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_25">
+                        de la 
+                        <choice>
+                            <abbr>modif.</abbr>
+                            <expan>modification</expan>
+                        </choice> 
+                        du son, le rapport entre l'idée et le
+                    </s>
+
+                    <s type="transcription" facs="#lb_p016_26">
+                        son est devenu autre que dans leurs 
+                        <choice>
+                            <abbr>protot.</abbr>
+                            <expan>prototypes</expan>
+                        </choice> 
+                        <emph rend="underlined">kalbiz</emph>
+                        - 
+                        <emph rend="underlined">kalbizō.</emph>
+                    </s>
+
+                    <s type="translation" xml:id="tradPara6">
+                        Essa dirà che in kalb, kalbir, in seguito alla modificazione del suono, il rapporto tra l’idea e il suono è divenuto altro rispetto ai loro prototipi kalbiz, kalbizo.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 7 -->
+                <p xml:id="Para7">
+                    <s type="transcription" facs="#lb_p016_27">
+                        La 
+                        <choice>
+                            <abbr>morp.</abbr>
+                            <expan>morphologie</expan>
+                        </choice>
+                        <choice>
+                            <abbr>étym.</abbr>
+                            <expan>étymologique</expan>
+                        </choice> 
+                        ne voit que l'état le 
+                        <choice>
+                            <abbr>+</abbr>
+                            <expan>plus</expan>
+                        </choice> 
+                        primitif et
+                    </s>
+
+                    <s type="translation" xml:id="tradPara7">
+                        La morfologia etimologica non vede se non lo stato più primitivo e
+                    </s>
+                </p>
+            </div>
+
+            <!-- PAGINA 17 -->
+            <div type="page" n="p017" facs="ms_fr_03951_07_p017">
+                <p xml:id="numpag17">
+                    <s type="transcription" facs="#lb_p017_01">
+                        <num value="17">17</num>
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 8 -->
+                <p xml:id="Para8">
+                    <s type="transcription" facs="#lb_p017_02">
+                        applique 
+                        <choice>
+                            <abbr>imperturbabl</abbr>
+                            <expan>imperturbablement</expan>
+                        </choice> 
+                        l'analyse
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_03">
+                        du 
+                        <choice>
+                            <abbr>pre</abbr>
+                            <expan>premier</expan>
+                        </choice> 
+                        jour aux périodes subséquentes.
+                    </s>
+
+                    <s type="translation" xml:id="tradPara8">
+                        applica imperturbabilmente l’analisi del primo giorno ai periodi susseguenti.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 9 -->
+                <p>
+                    <s type="transcription" facs="#lb_p017_04">
+                        Pas de fusion possible puisque la 
+                        <choice>
+                            <abbr>morp.</abbr>
+                            <expan>morphologie</expan>
+                        </choice> 
+                        <choice>
+                            <abbr>étymol.</abbr>
+                            <expan>étymologique</expan>
+                        </choice>
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_05">
+                        <gap reason="illegible" quantity="1" unit="word" />
+                        la négation même du principe 
+                        <choice>
+                            <abbr>historiq</abbr>
+                            <expan>historique</expan>
+                        </choice> 
+                        .
+                    </s>
+
+                    <s type="translation" xml:id="tradPara9">
+                        Nessuna confusione possibile poiché la morfologia etimologica è la negazione stessa del principio storico.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 10 -->
+                <p xml:id="Para10">
+                    <s type="transcription" facs="#lb_p017_06">
+                        Voici maintenant la question qui
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_07">
+                        ne peut manquer de se poser, si j'ai
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_08">
+                        réussi à 
+                        <gap reason="illegible" quantity="1" unit="word" /> 
+                        faire suivre 
+                        <add place="bottom">
+                            le 
+                            <choice>
+                                <abbr>développ</abbr>
+                                <expan>développement</expan>
+                            </choice> 
+                            du 
+                            <choice>
+                                <abbr>prés</abbr>
+                                <expan>présent exposé</expan>
+                            </choice>
+                        </add>  
+                        depuis le
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_09">
+                        <choice>
+                            <abbr>comment :</abbr>
+                            <expan>commencement :</expan>
+                        </choice>
+                    </s>
+
+                    <s type="translation" xml:id="tradPara10">
+                        Ecco adesso la questione che immancabilmente si pone, se sono riuscito a far seguire lo sviluppo di quest’esposizione dall’inizio.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 11 -->
+                <p xml:id="Para11">
+                    <s type="transcription" facs="#lb_p017_10">
+                        Puisqu'il 
+                        <gap reason="illegible" quantity="1" unit="word" /> 
+                        <add place="above">existe</add> 
+                        un changement morphologique
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_11">
+                        et une morphologie historique 
+                        <add place="margin">
+                            et 
+                            <choice>
+                                <abbr><num value="1">1</num></abbr>
+                                <expan>une</expan>
+                            </choice>
+                            succession 
+                            <choice>
+                                <abbr>ds</abbr>
+                                <expan>dans</expan>
+                            </choice> 
+                            les faits 
+                            <choice>
+                                <abbr>morp</abbr>
+                                <expan>morphologiques</expan>
+                            </choice>
+                        </add>
+                        , il est donc
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_12">
+                        faux que 
+                        <add place="margin">
+                            le jeu des forces
+                        </add> 
+                        <gap reason="illegible" quantity="2" unit="word" /> 
+                        <choice>
+                            <abbr>morphologiq.</abbr>
+                            <expan>morphologiques</expan>
+                        </choice>
+                        <gap reason="illegible" quantity="1" unit="word" />
+                    </s>
+
+                    <gap reason="illegible" quantity="2" unit="line" facs="#lb_p017_13" />
+
+                    <s type="transcription" facs="#lb_p017_14">
+                        s'exerce<gap reason="illegible" quantity="2" unit="character" />
+                        <gap reason="illegible" quantity="1" unit="word" />
+                        <choice>
+                            <abbr>constat</abbr>
+                            <expan>constamment</expan>
+                        </choice> 
+                        et
+                        <choice>
+                            <abbr>exclusivnt</abbr>
+                            <expan>exclusivement</expan>
+                        </choice>
+                        <gap reason="illegible" quantity="1" unit="word" />
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_15">
+                        <gap reason="illegible" quantity="2" unit="word" />
+                        entre formes 
+                        <choice>
+                            <abbr>contemporai?</abbr>
+                            <expan>contemporaines.</expan>
+                        </choice>
+                    </s>
+
+                    <s type="translation" xml:id="tradPara11">
+                        Poiché esiste un cambiamento morfologico, e una morfologia storica, e una successione nei fatti morfologici, è dunque falso dire che il gioco delle forze morfologiche si esercita costantemente ed esclusivamente tra forme contemporanee?
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 12 -->
+                <p xml:id="Para12">
+                    <s type="transcription" facs="#lb_p017_16">
+                        Je rappelle en effet qu'au 
+                        <choice>
+                            <abbr>§<num value="1">1</num></abbr>
+                            <expan>paragraphe premier</expan>
+                        </choice> 
+                        nous
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_17">
+                        posions comme 
+                        <choice>
+                            <abbr><num value="1">1</num></abbr>
+                            <expan>un</expan>
+                        </choice> 
+                        principe de 
+                        <choice>
+                            <abbr><num value="1">1</num>ère</abbr>
+                            <expan>première</expan>
+                        </choice> 
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_18">
+                        importance que 
+                        <gap reason="illegible" quantity="2" unit="word" />
+                        <add place="above">les faits</add> 
+                        <choice>
+                            <abbr>morp.</abbr>
+                            <expan>morphologiques</expan>
+                        </choice>
+                        <gap reason="illegible" quantity="1" unit="word" />
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_19">
+                        se passent 
+                        <gap reason="illegible" quantity="1" unit="word" />
+                        <add place="above">entre</add> 
+                        formes diverses et 
+                        <emph rend="underlined">simultanées</emph>
+                        ,
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_20">
+                        les faits 
+                        <gap reason="illegible" quantity="2" unit="word" /> 
+                        <choice>
+                            <abbr>phonét.</abbr>
+                            <expan>phonétiques</expan>
+                        </choice> 
+                        <gap reason="illegible" quantity="2" unit="word" /> 
+                        <add place="above">entre</add> 
+                        des formes
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_21">
+                        <choice>
+                            <abbr>identiq.</abbr>
+                            <expan>identiques</expan>
+                        </choice> 
+                        et successives.
+                    </s>
+
+                    <s type="translation" xml:id="tradPara12">
+                        Ricordo in effetti che al § 1 noi ponemmo come principio di primaria importanza che i fatti morfologici avvengono tra forme diverse e simultanee, e i fatti fonetici tra forme identiche e successive.
+                    </s>
+                </p>
+
+                <!-- PARAGRAFO 13 -->
+                <p xml:id="Para13">
+                    <s type="transcription" facs="#lb_p017_22">
+                        Il me sera très facile de vous
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_23">
+                        montrer que ce principe n'est pas entamé
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_24">
+                        un seul instant par le fait du
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_25">
+                        changement morphologique, mais
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_26">
+                        qu'il en 
+                        <gap reason="illegible" quantity="1" unit="word" /> 
+                        reçoit plutôt
+                        <gap reason="illegible" quantity="1" unit="word" />
+                    </s>
+
+                    <s type="transcription" facs="#lb_p017_27">
+                        <gap reason="illegible" quantity="4" unit="word" />
+                        <add place="above">une nouvelle et décisive</add>
+                        illustration
+                        <gap reason="illegible" quantity="2" unit="word" />
+                        .
+                    </s>
+
+                    <s type="translation" xml:id="tradPara13">
+                        Mi sarà assai facile mostrarvi che questo principio non è intaccato un solo istante dal fatto del cambiamento morfologico, ma che ne riceve piuttosto una nuova e decisiva illustrazione.
+                    </s>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
